@@ -1,0 +1,55 @@
+.weRock {
+    width: 100%;
+    height: 250px;
+    background-image: url('../resources/backgrounds/backgroundColourRock.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.weRock h1 {
+    width: 80%;
+    text-align: center;
+}
+.weRock h2{
+    width: 90%;
+    text-align: center;
+}
+.weRock a {
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.weRock .fas {
+    margin-right: 1rem;
+}
+#ital {
+    font-style: italic;
+}
+
+@media only screen and (min-width: 1200px) {
+    .weRock h1 {
+        font-size: 40px;
+        
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .weRock h2 {
+        font-size: 25px;
+        
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .servicesText {
+        width: 70%;
+    }
+}

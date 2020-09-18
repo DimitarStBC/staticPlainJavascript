@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styleSheets/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/3a84ca1838.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <title>Rubra</title>
+</head>
+
+<body>
+
+    <div id="balloonOne"></div>
+    <div id="balloonTwo"></div>
+    <div id="balloonThree"></div>
+
+    <section class="lang">
+        <div class="innerLang">
+            <div class="flags">
+                <a id="english" data-lang>
+                    <div class="uk flag"></div>
+                </a>
+                <a id="german" data-lang>
+                    <div class="deu flag"></div>
+                </a>
+
+            </div>
+            <div class="hiring">
+                <h1 id="hiringID">We're hiring — <span>work remotely</span></h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="landing">
+
+        <div class="logo">
+            <img src="./resources/logo/logo.png" alt="">
+        </div>
+        <div class="landingWelcome">
+            <div class="biggerText">
+                <div id="welcomeID"></div>
+            </div>
+            <h2 id="mainLandH2">Our platforms will help your brand shape connective and contagious experiences, both
+                online and offline</h2>
+            <div class="landingContant">
+                <a id="btnHome" href="#contactScroll"><i class="fas fa-comment-alt"></i>Begin the change</a>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="roadMap">
+        <h1 id="roadMapH1">Roadmap to platforms for longterm customer use</h1>
+        <p id="RoadMapP">Because you need responsive design from responsible people. So you can focus on your most
+            important work. Easy automation for busy people.</p>
+
+    </section>
+    <section class="whyAndServices">
+        <img id="roadIMG">
+
+    </section>
+
+
+    <section class="services">
+        <!-- <h1 id="servicesWhy" class="servicesTextH1">
+            Why US ? 
+        </h1> -->
+        <h2 id="servicesParagraph0" class="servicesText">We're building the highway to success</h2>
+        <h2 class="servicesText"> with CMS tailored to your
+            exact needs.</h2>
+        <!-- <h2 id="servicesParagraph1" class="servicesText"> Wanna reach us? Feeling inspired? We know the feeling!
+            Together we can recreate your vision and bring it to life. What do we have to offer you? Many heavy powerful
+            functionalities tucked into a small light pack or perhaps get it made as an insane optimized beast platform
+            
+            !</h2> -->
+        <div id="boxFlex">
+            <div id="creativeHover" class="box">
+                <div class="boxImg">
+                    <img src="./resources/services/lightbulb.png" alt="">
+                </div>
+                <h1 id="creativeBoxH1">creative</h1>
+
+            </div>
+
+            <div id="devHover" class="box">
+                <div class="boxImg">
+                    <img src="./resources/services/laptop.png" alt="">
+                </div>
+                <h1 id="devBoxH1">development</h1>
+
+            </div>
+            <div id="supHover" class="box">
+                <div class="boxImg">
+                    <img src="./resources/services/shield.png" alt="">
+                </div>
+                <h1 id="supBoxH1">support</h1>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="weRock">
+        <h1 id="weRockH1"> <span id="ital"> We Rock </span>: <span> And </span> <span> we </span> <span> can </span>
+            <span> help </span> <span> you </span> <span> rock </span> too!</h1>
+        <h2 id="weRockH2"><span>Out</span> <span>team</span> <span>is</span> <span>here</span> <span>to support</span>
+            <span>your</span> <span>team</span>, <span>so dive in</span> <span>and</span> <span>learn</span>
+            <span>about</span> <span>us.</span></h2>
+        <a id="proposalID" href="#contactScroll" class="btn"><i class="fas fa-check-double"></i>Get a proposal</a>
+    </section>
+
+    <section class="information">
+        <div id="infoID">
+            <h1>This is how we do it</h1>
+            <p>Our experience helped us achieve an easy automated process to quickly assist us in understanding your
+                needs
+                and get the expected results for you and your customers.</p>
+        </div>
+
+        <div class="infoBoxCenter">
+            <div id="DiscoveryBtn" class="infoBox">
+                <h1>Discovery</h1>
+                <i id="discoArrow" class="fas fa-caret-square-down"></i>
+            </div>
+            <div id="DiscoveryMore">
+                <p>
+                    Our stress-free process always starts with us getting to know you and your core values. You will
+                    help us understand your goals and needs. With a quick questionnaire followed by a custom offer we
+                    will shake hands and start the project.
+                </p>
+            </div>
+            <div id="StrategyBtn" class="infoBox">
+                <h1>Strategy</h1>
+                <i id="StrategyArrow" class="fas fa-caret-square-down"></i>
+            </div>
+            <div id="StrategyMore">
+                <p>This process starts with gathering and preparing the information we get from the previous chapter. We
+                    breakdown the main points of the project into milestones and create accurate time tables.</p>
+            </div>
+            <div id="DevBtn" class="infoBox">
+                <h1>Development</h1>
+                <i id="devArrow" class="fas fa-caret-square-down"></i>
+            </div>
+            <div id="DevMore">
+                <p>
+                    We kick off with setting up the most general parts of the structure. As soon this part is finished
+                    we now continue with integrating various feathers one by one.
+                </p>
+            </div>
+            <div id="LaunchBtn" class="infoBox">
+                <h1>Launch</h1>
+                <i id="launchArrow" class="fas fa-caret-square-down"></i>
+            </div>
+            <div id="LaunchMore">
+                <p>
+                    We always test our products, we check and we test some more to make sure you have what you came for.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contactScroll" class="contactUs">
+        <div class="flexContact">
+            <div class="formContact">
+                <form id="contactForm" action="" method="post">
+
+                    <h1 id="contactHead" class='contactHead'>Stay in touch</h1>
+
+                    <div class="wrapper">
+                        <i class="far fa-user"></i>
+                        <input id="nameID" type="text" placeholder="name" required>
+                    </div>
+
+                    <div class="wrapper">
+                        <i class="fas fa-suitcase"></i>
+                        <input id="businessID" type="text" placeholder="business">
+                    </div>
+
+                    <div class="wrapper">
+                        <i class="far fa-envelope"></i>
+                        <input id="emailID" type="email" placeholder="email">
+                    </div>
+
+                    <div class="wrapper">
+                        <i class="fas fa-comment-alt"></i>
+                        <textarea name="msg" id="msgID" placeholder="   Hello, write your message here"></textarea>
+                    </div>
+
+                    <button type="submit">send</button>
+                </form>
+            </div>
+            <div id="askAQ" class="askAQuestion">
+                <h1>Say hello!</h1>
+                <h2>Ask a question, request a new product, share some feedback or just say hello.</h2>
+                <h2>We promise to get back to you within 24 hours.</h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- <script src="./javaScript/image.js"></script> -->
+    <script src="./javaScript/ballAnimation.js"></script>
+    <script src="./javaScript/scroll.js"></script>
+    <script src="./form/form.js"></script>
+    <script src="./javaScript/readMore.js"></script>
+    <script src="./javaScript/services.js"></script>
+    <script src="./javaScript/constants.js"></script>
+    <script src="./javaScript/content.js"></script>
+    <script src="./javaScript/languages.js"></script>
+</body>
+
+</html>

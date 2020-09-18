@@ -1,0 +1,162 @@
+.contactUs {
+    width: 100%;
+    padding: 10px 0;
+    background-image: url('../resources/backgrounds/ContanctBG.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 0;
+    
+}
+.askAQuestion {
+    width: 80%;
+    margin: auto;
+}
+.askAQuestion h1 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: white;
+}
+.askAQuestion h2 {
+    color: white;
+    margin-top: 0.7rem;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactHead {
+    width: 200px;
+    padding: 10px;
+    /* margin-top: 0.5rem; */
+    margin-bottom: 1.5rem;
+    text-align: center;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    mix-blend-mode: color-dodge;
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+.wrapper {
+    width: 250px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0.3rem auto;
+}
+.wrapper textarea {
+    width: 250px;
+    padding: 0.3rem 2rem;
+    height: 100px;
+    resize: none;
+    border-radius: 5px;
+}
+.wrapper textarea::placeholder {
+    font-family: 'Montserrat', sans-serif !important;
+}
+.formContact {
+    padding-top: 80px;
+}
+form button {
+    background-color: white;
+    border: none;
+    color: black;
+    mix-blend-mode: color-dodge;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+.wrapper input[type=text] ,
+.wrapper input[type=email]{
+    width: 100%;
+    padding: 0.8rem 3.2rem;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.wrapper input[type=text]::-webkit-input-placeholder,.wrapper input[type=email]::-webkit-input-placeholder {
+    font-family: 'Montserrat', sans-serif !important;
+}
+.wrapper input[type=text]::-ms-input-placeholder,.wrapper input[type=email]::-ms-input-placeholder {
+    font-family: 'Montserrat', sans-serif !important;
+}
+.wrapper input[type=text]::-moz-placeholder,.wrapper input[type=email]::-moz-placeholder {
+    font-family: 'Montserrat', sans-serif !important;
+}
+.wrapper input[type=text]:-moz-placeholder,.wrapper input[type=email]:-moz-placeholder {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.wrapper .far , .wrapper .fas{
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    color: gray;
+}
+.flexContact {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: end;
+    align-items: center;
+}
+@media only screen and (min-width: 1200px) {
+    .wrapper {
+        width: 300px;
+        
+    }
+    .wrapper textarea {
+        width: 100%;
+    }
+    .contactHead {
+        color: black;
+        background: white;
+        mix-blend-mode: color-dodge;
+    }
+    .contactUs {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        
+    }
+    .flexContact {
+        flex-direction: row;
+    }
+    .askAQuestion {
+        width: 400px;
+        font-size: 25px;
+    }
+    .askAQuestion h1 {
+        font-size: 50px;
+        
+    }
+    .askAQuestion h2 {
+        margin: 1rem 0;
+    }
+    #contactForm {
+        width: 800px;
+        transform: scale(1.3);
+    }
+    form button {
+        width: 100px;
+    }
+    .contactUs {
+        width: 100%;
+        padding: 10px 0;
+        background-image: url('../resources/backgrounds/backgroundColour.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        
+    }
+}

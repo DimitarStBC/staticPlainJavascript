@@ -1,0 +1,105 @@
+.information {
+    width: 80%;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.information h1 {
+    margin: 1rem 0;
+    color: #3c1961;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.information p {
+    color: #3c1961;
+    line-height: 1.5rem;
+}
+.infoBoxCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+.infoBox {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #3c1961;
+    margin: 0.4rem 0;
+    color: white;
+}
+.infoBox h1 {
+    margin: 0;
+    color: white;
+}
+.infoBox .fas {
+    color: white;
+    font-size: 1.2rem;
+    transition: .3s ease;
+}
+.infoBox:hover{
+    cursor: pointer;
+}
+#DiscoveryMore{
+    display: none;
+}
+#StrategyMore {
+    display: none;
+}
+#DevMore {
+    display: none;
+}
+#LaunchMore {
+    display: none;
+}
+
+#rotateCreative {
+    transform: rotate(0deg);
+}
+
+@media only screen and (min-width: 1200px) {
+    #infoID h1{
+        font-size: 50px;
+    }
+    #infoID p {
+        font-size: 25px;
+        line-height: 30px;
+        width: 70%;
+    }
+    .infoBox {
+        width: 400px;
+        padding: 10px;
+    }
+    #infoID {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #DiscoveryMore {
+        width: 400px;
+        background-color: rgb(240, 240, 240);
+        border-bottom: 2px solid #3c1961;
+    }
+    #StrategyMore {
+        width: 400px;
+        background-color: rgb(240, 240, 240);
+        border-bottom: 2px solid #3c1961;
+    }
+    #DevMore {
+        width: 400px;
+        background-color: rgb(240, 240, 240);
+        border-bottom: 2px solid #3c1961;
+    }
+    #LaunchMore {
+        width: 400px;
+        background-color: rgb(240, 240, 240);
+        border-bottom: 2px solid #3c1961;
+    }
+}

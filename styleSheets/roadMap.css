@@ -1,0 +1,38 @@
+.roadMap {
+    width: 100%;
+    margin-top: 2rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.roadMap h1 {
+    width: 90%;
+    margin: 2rem auto;
+    font-size: 1.5rem;
+    color: #3c1961;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.roadMap p {
+    width: 90%;
+    margin: 0px auto;
+    line-height: 20px;
+    color: #3c1961;
+}
+
+@media only screen and (min-width: 1200px) {
+    .roadMap {
+        width: 60%;
+        margin: auto;
+    }
+    
+    .roadMap h1 {
+        font-size: 40px;
+    }
+    .roadMap p {
+        font-size: 25px;
+        line-height: 40px;
+    }
+}
